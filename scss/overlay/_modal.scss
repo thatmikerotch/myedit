@@ -1,0 +1,24 @@
+@use "modal/changeusername";
+@use "modal/deletemessage";
+@use "modal/event";
+@use "modal/imageupload";
+@use "modal/invitefriends";
+@use "modal/phonenumber";
+@use "modal/uploadfile";
+
+@use "../top/var-scss" as *;
+@use "../top/border" as bd;
+
+// Modals
+.appMount-2yBXZl .root-1CAIjD {
+    @include bd.border(thick $bright-color);
+    background-color: $background-color;
+    box-shadow: 0 0 30px 0 $dim-color;
+}
+
+// Footer
+.appMount-2yBXZl .footer-IubaaS {
+    background-color: $background-color;
+    box-shadow: none;
+    border-top: 2px dashed $border-color-normal;
+}
